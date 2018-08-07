@@ -5,6 +5,8 @@
  */
 package co.edu.isc.utp.agenda;
 
+import java.time.LocalDate;
+
 /**
  *
  * @author Felipe
@@ -15,22 +17,11 @@ public class Persona {
     private String nombre2;
     private String apellido1;
     private String apellido2;
-    private String fechaNacimiento;
+    private LocalDate fechaNacimiento;
     private Correo correo;
     private Direccion direccion;
     
-    public Persona(String nombre1, String nombre2, String apellido1, String apellido2, String fechaNacimiento, Correo correo, Direccion direccion) {
-        this.nombre1 = nombre1;
-        this.nombre2 = nombre2;
-        this.apellido1 = apellido1;
-        this.apellido2 = apellido2;
-        this.fechaNacimiento = fechaNacimiento;
-        this.correo = correo;
-        this.direccion = direccion;
-        
-    }
-    
-    public Persona(){}
+
     
     public String getNombre1(){
         return nombre1;
@@ -44,7 +35,7 @@ public class Persona {
     public String getApellido2(){
         return apellido2;
     }
-    public String getFechaNacimiento(){
+    public LocalDate getFechaNacimiento(){
         return fechaNacimiento;
     }
     
@@ -68,7 +59,7 @@ public class Persona {
     public void setApellido2(String cadena){
         apellido2 = cadena;
     }
-    public void setFechaNacimiento(String fechaNacimiento) {
+    public void setFechaNacimiento(LocalDate fechaNacimiento) {
         this.fechaNacimiento = fechaNacimiento;
     }
     public void setCorreo(Correo correo) {

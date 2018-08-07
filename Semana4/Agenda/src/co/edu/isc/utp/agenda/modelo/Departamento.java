@@ -12,16 +12,13 @@ import java.util.List;
  * @author Felipe
  */
 public class Departamento {
-    private List<String> ciudades;
+    private List<Ciudad> ciudades;
     private String nombre;
     private Pais pais;
+   //private List<Departamento> departamentos;
     
-    public Departamento(List<String> ciudades, String nombre, Pais pais) {
-        this.ciudades = ciudades;
-        this.nombre = nombre;
-        this.pais = pais;
-    }
-    public void setCiudades(List<String> ciudades) {
+   
+    public void setCiudades(List<Ciudad> ciudades) {
         this.ciudades = ciudades;
     }
 
@@ -33,7 +30,7 @@ public class Departamento {
         this.pais = pais;
     }
 
-    public List<String> getCiudades() {
+    public List<Ciudad> getCiudades() {
         return ciudades;
     }
 

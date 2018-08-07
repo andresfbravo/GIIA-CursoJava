@@ -5,6 +5,7 @@
  */
 package co.edu.isc.utp.agenda;
 
+import java.time.LocalDate;
 import java.util.List;
 
 /**
@@ -19,25 +20,32 @@ public class Registro extends Persona{
     private String foto;
     private List<Telefono> telefonos; //lista de telefonos
     private List<Correo> correos; //lista de telefonos
+    private Directorio directorio;
+    private List<Grupo> grupos;
 
-    public Registro(String alias, String cargo, String carrera, String foto,
-            List<Telefono> telefonos, List<Correo> correos, String nombre1,
-            String nombre2, String apellido1, String apellido2, String fechaNacimiento,
-            Correo correo,Direccion direccion) {
-        super(nombre1, nombre2, apellido1, apellido2, fechaNacimiento, correo,
-                direccion);
-        this.alias = alias;
-        this.cargo = cargo;
-        this.carrera = carrera;
-        this.foto = foto;
-        this.telefonos = telefonos;
-        this.correos = correos;
+
+
+    public List<Grupo> getGrupos() {
+        return grupos;
     }
-     
+
+    public void setGrupos(List<Grupo> grupos) {
+        this.grupos = grupos;
+    }
+    
+    
     public void setTelefonos(List<Telefono> telefonos) {
         this.telefonos = telefonos;
     }
 
+    public void setDirectorio(Directorio directorio) {
+        this.directorio = directorio;
+    }
+
+    public Directorio getDirectorio() {
+        return directorio;
+    }
+    
     public void setCorreos(List<Correo> correos) {
         this.correos = correos;
     }

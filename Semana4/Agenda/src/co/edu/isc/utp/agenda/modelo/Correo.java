@@ -13,10 +13,7 @@ public class Correo {
     private String correo;
     private Tipo tipo;
     
-    public Correo(String correo, Tipo tipo) {
-        this.correo = correo;
-        this.tipo = tipo;
-    }
+
 
     
     public void setCorreo(String correo) {

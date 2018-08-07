@@ -16,12 +16,9 @@ public class Directorio {
     private String nombre;
     private List<Registro> registros;
     private List<Grupo> grupos;
+    private Usuario usuario;
     
-    public Directorio(String nombre, List<Registro> registros, List<Grupo> grupos) {
-        this.nombre = nombre;
-        this.registros = registros;
-        this.grupos = grupos;
-    }
+
     
     public void setNombre(String nombre) {
         this.nombre = nombre;

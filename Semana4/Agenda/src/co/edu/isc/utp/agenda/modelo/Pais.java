@@ -5,24 +5,33 @@
  */
 package co.edu.isc.utp.agenda;
 
+import java.util.List;
+
 /**
  *
  * @author Felipe
  */
-public class Grupo {
+public class Pais {
+
+    private List<Departamento> departamentos;
     private String nombre;
-    
-    public Grupo(String nombre) {
-        this.nombre = nombre;
+   
+
+    public void setDepartamentos(List<Departamento> departamentos) {
+        this.departamentos = departamentos;
     }
-    
-    
+
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+
+    public List<Departamento> getDepartamentos() {
+        return departamentos;
     }
 
     public String getNombre() {
         return nombre;
     }
+
 
 }

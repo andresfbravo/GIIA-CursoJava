@@ -15,11 +15,7 @@ public class Direccion {
     private String barrio;
     private Ciudad ciudad;
 
-    public Direccion(String nomenclatura, String barrio, Ciudad ciudad) {
-        this.nomenclatura = nomenclatura;
-        this.barrio = barrio;
-        this.ciudad = ciudad;
-    }
+
 
     public String getNomenclatura() {
         return nomenclatura;

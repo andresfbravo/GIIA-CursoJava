@@ -13,10 +13,6 @@ public class Ciudad {
     private String nombre;
     private Departamento departamento;
 
-    public Ciudad(String nombre, Departamento departamento) {
-        this.nombre = nombre;
-        this.departamento = departamento;
-    }
 
     public String getNombre() {
         return nombre;
