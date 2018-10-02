@@ -3,5 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group name="clasesJava"/>
+        <group name="giia">
+            <file>file:/C:/Users/Felipe/Documents/NetBeansProjects/GIIA-CursoJava/Semana4/Sesion6AgendaUI/src/co/edu/utp/isc/agenda/ui/FrmPrincipal.java</file>
+            <file>file:/C:/Users/Felipe/Documents/NetBeansProjects/GIIA-CursoJava/Semana4/Sesion6AgendaUI/src/co/edu/utp/isc/agenda/ui/PnlPais.java</file>
+            <file>file:/C:/Users/Felipe/Documents/NetBeansProjects/GIIA-CursoJava/Semana4/Sesion6AgendaUI/src/co/edu/utp/isc/agenda/ui/PnlCiudad.java</file>
+            <file>file:/C:/Users/Felipe/Documents/NetBeansProjects/GIIA-CursoJava/Semana4/Sesion6AgendaUI/src/co/edu/utp/isc/agenda/ui/PnlDepartamento.java</file>
+        </group>
     </open-files>
 </project-private>
